@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  webserver:
+    image: nginx:latest
+    container_name: my-webserver
+    ports:
+      - "80:80"
