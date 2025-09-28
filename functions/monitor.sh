@@ -68,7 +68,3 @@ show_health_monitor() {
         tmux attach-session -t "$session_name"
     fi
 }
-
-# --- Start everything ---
-show_health_monitor
-
